@@ -82,7 +82,10 @@ OBJC_EXTERN void SetHUDEnabled(BOOL isEnabled);
     self.view = [[UIView alloc] initWithFrame:bounds];
 
     // rgba(26, 188, 156, 1.0)
-    self.view.backgroundColor = [UIColor colorWithRed:26.0f/255.0f green:188.0f/255.0f blue:156.0f/255.0f alpha:1.0f];
+    // self.view.backgroundColor = [UIColor colorWithRed:26.0f/255.0f green:188.0f/255.0f blue:156.0f/255.0f alpha:.580f/1.0f];
+
+    // rgba(0, 0, 0, 0.580)
+    self.view.backgroundColor = [UIColor colorWithRed:0.0f/255.0f green:0.0f/255.0f blue:0.0f/255.0f alpha:.580f/1.0f];
 
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapView:)];
     tap.numberOfTapsRequired = 1;

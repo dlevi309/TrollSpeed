@@ -24,6 +24,8 @@
 	<string>????</string>
 	<key>UIApplicationShowsViewsWhileLocked</key>
 	<true/>
+	<key>UIBackgroundStyle</key>
+	<string>UIBackgroundStyleDarkBlur</string>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 	<key>UIStatusBarStyle</key>
